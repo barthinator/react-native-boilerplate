@@ -16,7 +16,7 @@ Install ES-Lint
 
 ```
 brew install node
-npm install -g create-react-native-app
+npm install -g create-react-native-app react-native-cli
 ```
 
 ### Setup
