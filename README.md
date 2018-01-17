@@ -11,6 +11,9 @@ This implementation uses npm, redux, react native and react native cli
 Install npm using [homebrew](https://brew.sh/)
 Install create-react-native-app [react-native](https://facebook.github.io/react-native/docs/getting-started.html)
 
+Optional:
+Install ES-Lint
+
 ```
 brew install node
 npm install -g create-react-native-app
@@ -26,6 +29,10 @@ git clone https://github.com/barthinator/dvvy
 cd dvvy
 npm install (this will install all the dependecies)
 ```
+
+### ES-Lint
+
+Make sure to have installed necesarry text editor preferences for es-lint to work after npm install. Install Linter and ES-Lint from the Atom preferences->packages pane to get started.
 
 ### Overwiew
 
