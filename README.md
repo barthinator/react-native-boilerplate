@@ -13,7 +13,7 @@ Install create-react-native-app [react-native](https://facebook.github.io/react-
 
 ```
 brew install node
-npm install -g create-react-native-app
+npm install -g create-react-native-app react-native-cli
 ```
 
 ### Setup
