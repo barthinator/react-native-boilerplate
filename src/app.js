@@ -1,20 +1,23 @@
-import React from 'react';
-import { View } from 'react-native';
-import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import reducers from './reducers';
-import { Header } from './components/common';
-import LibraryList from './components/LibraryList'
+import { DrawerNavigator } from 'react-navigation';
+import ProfileScreen from './containers/ProfileScreen';
+import Feed from './containers/Feed.js';
+import Collab from './containers/Collab.js';
+import Settings from './containers/Settings.js';
 
-const App = () => {
-  return (
-    <Provider store={createStore(reducers)}>
-      <View style={{ flex: 1 }}>
-        <Header headerText="dvvy" />
-        <LibraryList />
-      </View>
-    </Provider>
-  );
-};
+const App = DrawerNavigator({
+
+  ProfileScreen: {
+    screen: ProfileScreen,
+  },
+  Feed: {
+    screen: Feed,
+  },
+  Collab: {
+    screen: Collab,
+  },
+  Settings: {
+    screen: Settings,
+  },
+});
 
 export default App;
