@@ -1,15 +1,12 @@
 import React from 'react';
-import { View } from 'react-native';
-import { Header } from '../components/common/Header.js';
+import { View, Text } from 'react-native';
 
-class Collab extends React.Component {
-  render() {
-    return (
+const Feed = () => {
+  return (
       <View style={{ flex: 1 }}>
-        <Header headerText="Collab" />
+        <Text>Test</Text>
       </View>
-    );
-  }
-}
+  );
+};
 
-export default Collab;
+export default Feed;

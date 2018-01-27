@@ -60,5 +60,5 @@ const loginUserSuccess = (dispatch, user) => {
     payload: user
   });
 
-  Actions.feed();
+  Actions.drawer();
 };
